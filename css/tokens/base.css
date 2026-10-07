@@ -1,0 +1,6 @@
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg-1);color:var(--fg-1);font:var(--fw-regular) var(--fs-body)/var(--lh-body) var(--font-body);-webkit-font-smoothing:antialiased}
+a{color:var(--hn-deep-space);text-decoration:underline;text-underline-offset:3px}a:hover{background:var(--hn-yellow);text-decoration:none}
+::selection{background:var(--hn-yellow);color:var(--hn-deep-space)}
+@keyframes hn-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes hn-orbit{to{transform:rotate(360deg)}}

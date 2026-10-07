@@ -1,0 +1,15 @@
+:root{
+--font-display:"Space Grotesk",system-ui,sans-serif;--font-body:"Inter",system-ui,sans-serif;--font-mono:"IBM Plex Mono",ui-monospace,monospace;
+--fs-mega:clamp(96px,16vw,280px);/* @kind other */--fs-h1:96px;--fs-h2:64px;--fs-h3:40px;--fs-h4:24px;--fs-body-lg:20px;--fs-body:16px;--fs-small:14px;--fs-meta:11px;
+--lh-tight:.92;/* @kind other */--lh-head:1;/* @kind other */--lh-body:1.5;/* @kind other */
+--tracking-display:-.03em;/* @kind other */--tracking-meta:.14em;/* @kind other */
+--fw-regular:400;/* @kind other */--fw-medium:500;/* @kind other */--fw-semibold:600;/* @kind other */--fw-bold:700;/* @kind other */
+}
+.t-mega{font:var(--fw-bold) var(--fs-mega)/var(--lh-tight) var(--font-display);letter-spacing:var(--tracking-display)}
+.t-h1{font:var(--fw-bold) var(--fs-h1)/var(--lh-head) var(--font-display);letter-spacing:var(--tracking-display)}
+.t-h2{font:var(--fw-bold) var(--fs-h2)/var(--lh-head) var(--font-display);letter-spacing:-.025em}
+.t-h3{font:var(--fw-semibold) var(--fs-h3)/1.05 var(--font-display);letter-spacing:-.02em}
+.t-h4{font:var(--fw-medium) var(--fs-h4)/1.15 var(--font-display)}
+.t-body{font:var(--fw-regular) var(--fs-body)/var(--lh-body) var(--font-body)}
+.t-lead{font:var(--fw-regular) var(--fs-body-lg)/1.45 var(--font-body)}
+.t-meta{font:var(--fw-regular) var(--fs-meta)/1.4 var(--font-mono);letter-spacing:var(--tracking-meta);text-transform:uppercase}

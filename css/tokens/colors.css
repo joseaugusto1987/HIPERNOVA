@@ -1,0 +1,11 @@
+:root{
+--hn-yellow:#FDEE3D;--hn-deep-space:#222222;--hn-cosmic-mist:#F4F4EE;--hn-nebula-gray:#D7D7D7;--hn-white:#FFFFFF;
+--hn-yellow-60:rgba(253,238,61,.6);--hn-yellow-20:rgba(253,238,61,.2);--hn-ink-60:rgba(34,34,34,.6);--hn-ink-12:rgba(34,34,34,.12);
+--bg-energy:var(--hn-yellow);--fg-on-energy:var(--hn-deep-space);
+--bg-matter:var(--hn-deep-space);--fg-on-matter:var(--hn-cosmic-mist);
+--bg-space:var(--hn-cosmic-mist);--fg-on-space:var(--hn-deep-space);
+--fg-1:var(--hn-deep-space);--fg-2:var(--hn-ink-60);--fg-inverse:var(--hn-cosmic-mist);
+--bg-1:var(--hn-cosmic-mist);--bg-2:var(--hn-nebula-gray);--bg-inverse:var(--hn-deep-space);
+--accent:var(--hn-yellow);--line:var(--hn-deep-space);--line-soft:var(--hn-nebula-gray);
+--grad-density:linear-gradient(90deg,#222 0%,#FDEE3D 55%,#D7D7D7 100%);/* @kind other */
+}

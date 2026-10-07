@@ -1,0 +1,8 @@
+:root{
+--sp-1:4px;--sp-2:8px;--sp-3:12px;--sp-4:16px;--sp-5:24px;--sp-6:32px;--sp-7:48px;--sp-8:64px;--sp-9:96px;--sp-10:160px;
+--margin-page:48px;--cols-h:12;/* @kind other */--cols-v:6;/* @kind other */--gutter:24px;/* @kind other */
+--radius-none:0;--radius-pill:999px;--radius-circle:50%;
+--border-hair:1px solid var(--line);--border-bold:2px solid var(--line);
+--shadow-none:none;
+--ease-field:cubic-bezier(.22,.8,.26,1);/* @kind other */--dur-fast:160ms;/* @kind other */--dur-base:320ms;/* @kind other */--dur-slow:900ms;/* @kind other */--dur-pulse:4800ms;/* @kind other */
+}
